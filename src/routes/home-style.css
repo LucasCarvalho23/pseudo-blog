@@ -21,6 +21,7 @@ h1 {
 }
 
 .btn-class {
+    margin-top: 10px;
     background-color: rgb(173, 171, 171);
     color: black;
     opacity: 1;
