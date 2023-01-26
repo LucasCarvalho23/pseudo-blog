@@ -1,0 +1,38 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.post-class {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(129, 129, 129);
+}
+
+.post-class h2, .post p {
+    margin-bottom: 1rem;
+}
+
+.post-class h2::first-letter {
+    text-transform: uppercase;
+}
+
+.btn-class {
+    background-color: rgb(173, 171, 171);
+    color: black;
+    opacity: 1;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    max-width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-class:hover {
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
